@@ -1,0 +1,17 @@
+p{
+    color:blue;
+    align-items:center;
+}
+.tbutton{
+   border: 1px outset;
+   background-color: lightgreen;
+   height:50px;
+   width:50px;
+   cursor:pointer;
+   font-optical-sizing: 10px;
+  
+}
+.tbutton:hover {
+   background-color:green;
+   color:white;
+}

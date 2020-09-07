@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <p>Player 1 -> X</p>
+    <p>Player 2 -> O</p>
+    <p>Player 1 starts the game</p>
+    <table >
+        <tr>
+            <td><button id="00" onclick="changeSymbol(this.id)" class="tbutton"><label for="00" ></label></button></td>
+            <td><button id="01" onclick="changeSymbol(this.id)" class="tbutton"><label for="01" ></label></button></td>
+            <td><button id="02" onclick="changeSymbol(this.id)" class="tbutton"><label for="02" ></label></button></td>
+        </tr>
+        <tr>
+            <td><button id="10" onclick="changeSymbol(this.id)" class="tbutton"><label for="10" ></label></button></td>
+            <td><button id="11" onclick="changeSymbol(this.id)" class="tbutton"><label for="11" ></label></button></td>
+            <td><button id="12" onclick="changeSymbol(this.id)" class="tbutton"><label for="12" ></label></button></td>
+        </tr>
+        <tr>
+            <td><button id="20" onclick="changeSymbol(this.id)" class="tbutton"><label for="20" ></label></button></td>
+            <td><button id="21" onclick="changeSymbol(this.id)" class="tbutton"><label for="21" ></label></button></td>
+            <td><button id="22" onclick="changeSymbol(this.id)" class="tbutton"><label for="22" ></label></button></td>
+        </tr>
+    </table>
+    <h3 id='winner'></h3>
+    <button id="clear" onclick="Clear()">Clear</button>
+    
+</body>
+</html>
